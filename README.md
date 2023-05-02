@@ -8,12 +8,13 @@
 
 - Modal 컴포넌트 불러오기
 
-`import Modal from 'react-modal-deploy-practice'`
+`import { Modal } from 'react-modal-deploy-practice'`
 
 - Modal 사용하기
 
 ```js
-<Modal trigger={<button>모달 열기</button>}>
+import { Modal } from 'react-modal-deploy-practice'
+;<Modal trigger={<button>모달 열기</button>}>
   <h2>제목</h2>
   <p>내용</p>
 </Modal>
@@ -27,7 +28,6 @@
 
 ```js
 import { Modal } from 'react-modal-deploy-practice'
-
 function App() {
   return (
     <div>
